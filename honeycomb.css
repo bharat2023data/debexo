@@ -69,7 +69,7 @@
   .hex p {
     margin: 0;
     width: 100%;
-    left: -1%;  /* prevent line on the right where background doesn't cover image */
+    left: 0%;  /* prevent line on the right where background doesn't cover image */
     padding: 5%;
     box-sizing: border-box;
     background-color: rgba(0, 109, 109, 0.7);
