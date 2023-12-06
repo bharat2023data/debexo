@@ -68,12 +68,12 @@
   .hex h1,
   .hex p {
     margin: 0;
-    width: 102%;
+    width: 100%;
     left: -1%;  /* prevent line on the right where background doesn't cover image */
     padding: 5%;
     box-sizing: border-box;
     background-color: rgba(0, 109, 109, 0.7);
-    font-weight: 300;
+    font-weight: 200;
     color: rgb(255, 255, 255);
     /* transition: transform .2s ease-out, opacity .3s ease-out; */
     /* animation: transition1 10s; */
@@ -106,7 +106,7 @@
     /* transform: translateY(100%) translatez(-1px); */
     text-align: left;
     padding-left: 5%;
-    font-size: 140%;
+    font-size: 100%;
     
   }
   
