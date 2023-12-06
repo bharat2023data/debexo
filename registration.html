@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang = "en" dir = "ltr">
+    <head>
+        <meta charset = "utf-8">
+        <title>Exhibitor Section</title>
+        <link rel = "stylesheet" href = "exhibitors.css">
+
+
+      
+         <!--NEW NAVBAR-->
+         <meta name="viewport" content="width=device-width, initial-scale=1">
+         <link rel="stylesheet" href="./navbar/w3.css">
+         <link rel="stylesheet" href="./navbar/gfont.css">
+         <link rel="stylesheet" href="./navbar/text_style.css">
+      
+
+
+    </head>
+    <body>
+
+       <!-- New Navbar -->
+ <!-- New Navbar -->
+<div class="w3-top">
+  <div class="w3-bar w3-black w3-card">
+    <a class="w3-bar-item w3-button w3-padding-large w3-hide-medium w3-hide-large w3-right" href="javascript:void(0)" onclick="newFunction()" title="Toggle Navigation Menu"><img src="./navbar/burger7.png" style="height:20px"></img></a>
+    <a href="new_debel_webpage.html" class="w3-bar-item w3-button w3-padding-large"><img src="./images/drdo.png" class="w3-logo"></img> INTERNATIONAL WORKSHOP</a>
+    <a href="Speakers.html" class="w3-bar-item w3-button w3-padding-large w3-hide-small">SPEAKERS</a>
+    <a href="Exhibitors.html" class="w3-bar-item w3-button w3-padding-large w3-hide-small">EXHIBITORS</a>
+    <a href="registration.html" class="w3-bar-item w3-button w3-padding-large w3-hide-small">REGISTERATION</a>
+    <a href="about_us.html" class="w3-bar-item w3-button w3-padding-large w3-hide-small">ABOUT US</a>
+   
+    <a class="w3-padding-small w3-hover-red w3-hide-small w3-right"><h6>02-04 Feb 2024 Exo-Skeleton Workshop By DEBEL,DRDO Bengaluru India</h6></a>
+  </div>
+</div>
+
+    
+    <!-- Navbar on small screens (remove the onclick attribute if you want the navbar to always show on top of the content when clicking on the links) -->
+    <div id="navDemo" class="w3-bar-block w3-black w3-hide w3-hide-large w3-hide-medium w3-top" style="margin-top:46px">
+      <a href="new_debel_webpage.html" class="w3-bar-item w3-button w3-padding-large" onclick="newFunction()">HOME</a>
+      <a href="Speakers.html" class="w3-bar-item w3-button w3-padding-large" onclick="newFunction()">SPEAKERS</a>
+      <a href="Exhibitors.html" class="w3-bar-item w3-button w3-padding-large" onclick="newFunction()">EXHIBITORS</a>
+      <a href="registration.html" class="w3-bar-item w3-button w3-padding-large" onclick="newFunction()">REGISTERATION</a>
+      <a href="about_us.html" class="w3-bar-item w3-button w3-padding-large" onclick="newFunction()">ABOUT US</a>
+    
+    </div>
+
+
+
+
+
+
+
+
+
+     
+        
+<!-- --------------------------START OVERLAY 1-------------------------------------------- -->
+
+<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSeQga6qE6Qz9-yQhmKzQUf0iVkwHP42JGM8gHUv1o1vTlKpZw/viewform?embedded=true" style="margin-top: 10%;" width="100%" height="2000px" frameborder="0" marginheight="100px" marginwidth="0">Loading…</iframe>
+<!------------------------------------ footer start -->
+<div>
+  <p style="text-align: center; font-size: medium; color: rgb(255, 81, 0);"> * Organizer does not provide any accomodation</p>
+</div>
+
+<div class="footer" style="width: 100%; margin-top: 20vh;">
+  <div class="column">
+    <p class="text_heading" style="color:rgb(0, 181, 252);"> Contact Details</p>
+    <p  class="text_description">
+      Name: Dr. K Mohanavelu, Scientist-'F'  <br>
+      Email: debexo23@gmail.com
+       </p>
+</div>
+<div class="column">
+    <p  class="text_heading" style="color:rgb(0, 181, 252);">Address</p>
+    <p class="text_description">DEBEL, CV Raman Nagar, Bengaluru, Karnataka<br>
+       Website: debel.drdo.in</p>
+</div>
+<div class="column">
+    <p  class="text_heading" style="color:rgb(0, 181, 252);">Visit Us</p>
+    <p class="text_description">Website: <a href="https://www.drdo.gov.in/labs-and-establishments/defence-bio-engineering-electro-medical-laboratory-debel"> DEBEL</a>
+    </p>
+</div>
+</div>
+
+<!------------------------------------ footer end -->
+
+<script>
+         
+  var myIndex = 0;
+
+  // Used to toggle the menu on small screens when clicking on the menu button
+  function newFunction() {
+    var x = document.getElementById("navDemo");
+    if (x.className.indexOf("w3-show") == -1) {
+      x.className += " w3-show";
+    } else { 
+      x.className = x.className.replace(" w3-show", "");
+    }
+  }
+  
+ 
+</script> 
+
+<script>
+  let prevScrollPos = window.pageYOffset;
+
+  window.onscroll = function() {
+    let currentScrollPos = window.pageYOffset;
+
+    if (prevScrollPos > currentScrollPos) {
+      document.getElementById("navbar").style.top = "0";
+    } else {
+      document.getElementById("navbar").style.top = "-10px"; // Adjust this value to change how much the navbar is hidden during scrolling
+    }
+
+    prevScrollPos = currentScrollPos;
+  };
+  
+</script>   
+</body>
+</html>
