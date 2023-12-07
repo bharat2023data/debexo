@@ -377,3 +377,9 @@ to{
     visibility: visible;
     }
 }
+
+.pdfbutton button
+{ background-color: #2c67f2;
+  color:white;
+  font-size:20px;
+}
