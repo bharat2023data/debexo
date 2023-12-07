@@ -461,7 +461,7 @@ article h2 {
     margin-top: 0%;
     text-align: center;
     
-      font-size: 40px;
+      font-size: 100%;
       font-family:  Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
       font-weight: bolder;
       background:-webkit-linear-gradient(rgba(0, 0, 0, 0.986),rgb(230, 230, 25),rgba(192, 163, 49, 0.815), rgba(187, 147, 73, 0.959));
@@ -472,10 +472,10 @@ article h2 {
     
   }
 
-  .text-box2 h3{
+  .text-box2 #unq{
     margin-top: 0%;
     text-align: center;
-    font-size: 40px;
+    font-size: 100%;
       font-family:  Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
       font-weight: bolder;
       background:-webkit-linear-gradient(rgba(0, 0, 0, 0.986),rgb(230, 230, 25),rgba(192, 163, 49, 0.815), rgba(187, 147, 73, 0.959));
