@@ -150,7 +150,7 @@ body {
 }
 
 .wrapper header {
-    font-size: 35px;
+    font-size: 100%;
     font-weight: 600;
 }
 
@@ -326,5 +326,47 @@ form input[type="submit"]:hover {
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     
+    
 
   }
+
+  /* .container
+  {
+    grid-template-columns: repeat(2,1fr);
+    gap: 10%;
+    display: grid;
+
+  } */
+
+  .newcontainer {
+    width: 100%;
+  
+    display: flex;
+    gap: 5%;
+  }
+
+  .newcontainer .right p
+  {
+    padding-left: 12%;
+  }
+
+  
+  .right, .left {
+    width: 40%; /* Initially, both elements take 50% of the container's width */
+
+  }
+  
+  @media (max-width: 767px) {
+    .newcontainer {
+      flex-direction: column; /* On smaller screens, stack elements vertically */
+      justify-content: center;
+    }
+  
+    .right, .left {
+      width: 100%; /* On smaller screens, make both elements take 100% width */
+      text-align: center;
+      justify-content: center;
+    }
+
+  }
+  
