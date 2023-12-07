@@ -344,7 +344,8 @@ form input[type="submit"]:hover {
 
   .newcontainer {
     width: 100%;
-  
+    margin-left: 5%;
+    margin-right: 5%;
     display: flex;
     gap: 5%;
   }
