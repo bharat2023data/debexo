@@ -574,3 +574,10 @@ article h2 {
       padding-top: 3%;
       padding-bottom: 3%;
   }
+
+
+.pdfbutton button
+{ background-color: radial-gradient(rgb(122, 60, 151),rgb(69, 56, 75),rgb(53, 146, 138));;
+  color:white;
+  font-size:20px;
+}
