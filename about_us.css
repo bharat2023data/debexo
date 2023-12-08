@@ -118,6 +118,8 @@ body {
 }
 .organizer #p1l{
     text-shadow: 2px 2px 2px  #000000;
+    margin-right: 0%;
+    width: 110%;
 
 }
 
@@ -134,10 +136,10 @@ body {
 
 }
 
-::selection {
+/* ::selection {
     color: #fff;
     background: #53f0e3;
-}
+} */
 
 .wrapper {
     margin: 10%;
@@ -350,16 +352,16 @@ form input[type="submit"]:hover {
 
   .newcontainer {
     width: 100%;
-    margin-left: 5%;
-    margin-right: 5%;
+    margin-left: 0%;
+    margin-right: 0%;
     display: flex;
     gap: 5%;
   }
 
-  .newcontainer .right p
+   .newcontainer .right p
   {
     padding-left: 12%;
-  }
+  } 
 
   
   .right, .left {
@@ -368,10 +370,22 @@ form input[type="submit"]:hover {
   }
   
   @media (max-width: 767px) {
-    .newcontainer {
+    .wrapper {
       flex-direction: column; /* On smaller screens, stack elements vertically */
       justify-content: center;
+      text-align: center;
+      font-size: xx-small;
+      margin-top: 19%;
+     
+      
     }
+     .name-title{
+        text-align: center;
+        font-size: 10%;
+    }
+    /* .newcontainer{
+        font-size: xx-small;
+    } */
   
     .right, .left {
       width: 100%; /* On smaller screens, make both elements take 100% width */
