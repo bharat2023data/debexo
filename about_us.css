@@ -355,13 +355,8 @@ form input[type="submit"]:hover {
     margin-left: 0%;
     margin-right: 0%;
     display: flex;
-    gap: 5%;
+    gap: 10%;
   }
-
-   .newcontainer .right p
-  {
-    padding-left: 12%;
-  } 
 
   
   .right, .left {
