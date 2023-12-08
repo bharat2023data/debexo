@@ -27,6 +27,9 @@ body {
     text-align: left;
     z-index: 1000;
     
+    
+    
+    
   }
 
 .pdfbutton button
@@ -111,16 +114,10 @@ body {
 }
 .organizer #p1{
     text-shadow: 2px 2px 2px  #000000;
-    text-align: center;
-}
 
-.organizer #p1r{
-    text-shadow: 2px 2px 2px  #000000;
-    text-align: left;
 }
 .organizer #p1l{
     text-shadow: 2px 2px 2px  #000000;
-    text-align: left;
 
 }
 
@@ -353,13 +350,18 @@ form input[type="submit"]:hover {
 
   .newcontainer {
     width: 100%;
-/*     margin-left: 5%;
-    margin-right: 5%; */
+    margin-left: 5%;
+    margin-right: 5%;
     display: flex;
     gap: 5%;
   }
 
+  .newcontainer .right p
+  {
+    padding-left: 12%;
+  }
 
+  
   .right, .left {
     width: 40%; /* Initially, both elements take 50% of the container's width */
 
