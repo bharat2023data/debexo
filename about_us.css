@@ -356,14 +356,9 @@ form input[type="submit"]:hover {
     gap: 5%;
   }
 
-  .newcontainer .right p
-  {
-    padding-left: 12%;
-  }
 
-  
   .right, .left {
-    width: 40%; /* Initially, both elements take 50% of the container's width */
+    width: 48%; /* Initially, both elements take 50% of the container's width */
 
   }
   
