@@ -581,3 +581,43 @@ article h2 {
   color:white;
   font-size:20px;
 }
+
+
+@media (max-width:1360px){
+.background-container{
+margin-top:3%;
+	
+}
+}
+
+
+@media (max-width:1230px){
+.background-container{
+margin-top:6%;
+	
+}
+}
+
+
+@media (max-width:1000px){
+.background-container{
+margin-top:8%;
+	
+}
+}
+
+
+
+@media (max-width:860px){
+.background-container{
+margin-top:10%;
+	
+}
+}
+@media (max-width:400px){
+.background-container{
+margin-top:16%;
+	
+}
+}
+
