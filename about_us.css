@@ -27,9 +27,6 @@ body {
     text-align: left;
     z-index: 1000;
     
-    
-    
-    
   }
 
 .pdfbutton button
@@ -113,6 +110,11 @@ body {
     color: #fffbfb;
 }
 .organizer #p1{
+    text-shadow: 2px 2px 2px  #000000;
+    text-align: center;
+}
+
+.organizer #p1r{
     text-shadow: 2px 2px 2px  #000000;
     text-align: left;
 }
